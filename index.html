@@ -71,6 +71,69 @@
             </div>
         </section>
     </main>
+
+    <section id="contact" class="contact py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="contact__title">Hablemos de tu Proyecto</h2>
+            <p class="contact__subtitle text-muted">Estamos listos para ayudarte a alcanzar tus metas. Rellena el formulario o contáctanos directamente.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-7 mb-4 mb-lg-0">
+                <div class="contact__form-wrapper p-4">
+                    <form action="https://formspree.io/f/TU_ID_DE_FORMULARIO" method="POST" class="contact__form">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Nombre</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre completo" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="tu@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Ej: Cotización de e-commerce" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Cuéntanos sobre tu idea o proyecto..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block contact__submit-btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="contact__info-wrapper p-4">
+                    <div class="contact__info-item">
+                        <i class="fas fa-envelope contact__info-icon"></i>
+                        <div class="contact__info-text">
+                            <h6>Email</h6>
+                            <a href="mailto:hola@techdesign.com">hola@techdesign.com</a>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <i class="fas fa-phone-alt contact__info-icon"></i>
+                        <div class="contact__info-text">
+                            <h6>Teléfono</h6>
+                            <a href="tel:+56912345678">+56 9 1234 5678</a>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <i class="fas fa-map-marker-alt contact__info-icon"></i>
+                        <div class="contact__info-text">
+                            <h6>Ubicación</h6>
+                            <p>Av. Falsa 123, Santiago, Chile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
