@@ -1,0 +1,12 @@
+// _mixins.scss
+
+@mixin flex-center($direction: row) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin transition-ease($property: all, $duration: 0.3s) {
+    transition: $property $duration ease-in-out;
+}

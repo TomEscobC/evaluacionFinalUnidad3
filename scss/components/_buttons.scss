@@ -1,0 +1,32 @@
+// _buttons.scss
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: $border-radius;
+    font-weight: 700;
+    font-family: $font-secondary;
+    @include transition-ease();
+    border: none;
+}
+
+.hero__cta-primary {
+    background-color: $secondary-color;
+    color: $white;
+
+    &:hover {
+        background-color: darken($secondary-color, 10%);
+        color: $white;
+        transform: translateY(-2px);
+    }
+}
+
+.hero__cta-secondary {
+    background-color: transparent;
+    color: $dark-gray;
+    border: 2px solid $light-gray;
+
+    &:hover {
+        background-color: $white;
+        border-color: $white;
+    }
+}

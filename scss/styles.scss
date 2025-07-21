@@ -1,0 +1,38 @@
+// styles.scss
+
+// 1. Abstracts (variables, mixins)
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// 2. Base styles (reset, typography)
+@import 'base/reset';
+@import 'base/typography';
+
+// 3. Layout (header, footer)
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/contact';
+
+// 4. Components (buttons, cards)
+// Nota: _cards.scss ya te lo había pasado.
+@import 'components/buttons';
+@import 'components/cards';
+
+.hero {
+    background-color: $light-gray;
+
+    &__title {
+        font-size: 3.5rem;
+    }
+
+    &__description {
+        font-size: 1.25rem;
+        color: $text-light;
+        max-width: 600px;
+        margin: $spacing-md auto $spacing-lg;
+    }
+}
+
+.services {
+    background-color: $white;
+}

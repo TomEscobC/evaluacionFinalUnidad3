@@ -1,0 +1,47 @@
+// _footer.scss
+
+.footer {
+    background-color: $primary-color;
+    color: $light-gray;
+    padding: $spacing-lg * 2 0;
+
+    &__section-title {
+        color: $white;
+        margin-bottom: $spacing-md;
+    }
+
+    &__link {
+        color: $light-gray;
+        display: block;
+        margin-bottom: 0.5rem;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+
+    &__social-links {
+        @include flex-center;
+        justify-content: flex-start;
+        gap: $spacing-md;
+    }
+
+    &__social-link {
+        font-size: 1.5rem;
+        color: $white;
+
+        &:hover {
+            color: $secondary-color;
+            transform: scale(1.1);
+        }
+    }
+
+    &__divider {
+        border-color: rgba($white, 0.1);
+        margin: $spacing-lg 0;
+    }
+
+    &__copyright {
+        color: $text-muted;
+    }
+}

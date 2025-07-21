@@ -1,0 +1,30 @@
+// _variables.scss
+
+// Paleta de Colores
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$accent-color: #e74c3c;
+$light-gray: #f8f9fa;
+$dark-gray: #343a40;
+$white: #ffffff;
+
+// Colores de fondo y texto (AÑADIDOS PARA CORREGIR EL ERROR)
+$bg-primary: $white;
+$bg-secondary: $light-gray;
+$text-color: $dark-gray;
+$text-light: #6c757d; // Un gris más suave para texto secundario
+$text-muted: #adb5bd; // Para texto muy apagado como el copyright
+
+// Tipografía
+$font-primary: 'Inter', sans-serif;
+$font-secondary: 'Montserrat', sans-serif;
+$font-size-base: 1rem; // 16px
+
+// Espaciado
+$spacing-md: 1rem;
+$spacing-lg: 2.5rem;
+
+// Sombras y Bordes
+$shadow: 0 4px 12px rgba(0,0,0,0.1);
+$shadow-sm: 0 2px 4px rgba(0,0,0,0.05); // Sombra más sutil para el header
+$border-radius: 8px;

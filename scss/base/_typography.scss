@@ -1,0 +1,22 @@
+// _typography.scss
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-secondary;
+    color: $primary-color;
+    font-weight: 700;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2.5rem; }
+h3 { font-size: 1.75rem; }
+
+a {
+    color: $secondary-color;
+    text-decoration: none;
+    @include transition-ease(color);
+
+    &:hover {
+        color: darken($secondary-color, 10%);
+        text-decoration: none;
+    }
+}
